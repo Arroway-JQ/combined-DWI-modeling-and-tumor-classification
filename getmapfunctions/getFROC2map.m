@@ -5,17 +5,17 @@ function [params,paramsmap] = getFROC2map(mainDir,patientname,x,y,z,A,normdecay,
 % mainDir and patientname are the dictionary to save IVIM
 % normdecay&onormdecay---onormdecay is the original decay data while
 % normdecay may partially approximated by small value epsilong.
-% DDC_init and alpha get from SEM model
+% 
 %Delta = 35.4;
-%delta = 16.4;%breastµÄ²ÎÊı?
+%delta = 16.4;%breastçš„å‚æ•°?
 
 %Delta = 33.5;
-%delta = 14.1;%renjibupto5000µÄ²ÎÊı
+%delta = 14.1;%renjibupto5000çš„å‚æ•°
 
 %Delta = 38.6;
-%delta = 32.2; %pediatricµÄ²ÎÊı
+%delta = 32.2; %pediatricçš„å‚æ•°
 Delta = 42.688;
-delta = 29.404;%AdultsµÄ²ÎÊı renji bupto4500 the same machine so try the same params
+delta = 29.404;%Adultsçš„å‚æ•° renji bupto4500 the same machine so try the same params
 %Delta = Delta-delta./3;
 epsilong = 1*10^(-10);
 betaf_init = alpha;
