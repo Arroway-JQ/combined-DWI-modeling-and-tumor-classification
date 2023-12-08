@@ -10,12 +10,12 @@ function [params,paramsmap] = getFROC2map(mainDir,patientname,x,y,z,A,normdecay,
 %delta = 16.4;%breast的参数?
 
 %Delta = 33.5;
-%delta = 14.1;%renjibupto5000的参数
+%delta = 14.1;%
 
 %Delta = 38.6;
-%delta = 32.2; %pediatric的参数
+%delta = 32.2; %
 Delta = 42.688;
-delta = 29.404;%Adults的参数 renji bupto4500 the same machine so try the same params
+delta = 29.404;
 %Delta = Delta-delta./3;
 epsilong = 1*10^(-10);
 betaf_init = alpha;
